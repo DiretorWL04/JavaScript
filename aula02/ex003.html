@@ -22,11 +22,14 @@
         var n1 = Number(prompt('Digite um número: '))
         var n2 = Number(window.prompt('Digite outro número: '))
         var sum = n1 + n2
-        alert('A soma é ' + sum)
+        alert(`A somo entre ${n1} e ${n2} é ${sum}`)
         // number + number para adição
         // string + string para concatenação
         // Number.parseInt e parseFloat converter string em number ou apenas number
         // string(n) e n.to string() para converter em string
+        // '' não faz interpolação
+        // + faz concatenação
+        // `${}` usa template string
     </script>
 </body>
 </html>
