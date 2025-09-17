@@ -26,16 +26,16 @@
 
             if (hora >= 5 && hora <= 12) {
                 msg.innerHTML += `<p>Bom dia ☀️</p>`
-                document.body.style.background = '#fdd835' // amarelo claro
+                document.body.style.background = '#fdd835' 
             } else if (hora > 12 && hora <= 18) {
                 msg.innerHTML += `<p>Boa tarde 🌇</p>`
-                document.body.style.background = '#ff9800' // laranja
+                document.body.style.background = '#ff9800' 
             } else if (hora >= 0 && hora < 5) {
                 msg.innerHTML += `<p>Boa madrugada 🌙</p>`
-                document.body.style.background = '#263238' // azul escuro
+                document.body.style.background = '#263238' 
             } else {
                 msg.innerHTML += `<p>Boa noite 🌃</p>`
-                document.body.style.background = '#37474f' // cinza escuro
+                document.body.style.background = '#37474f' 
             }
         }
 
